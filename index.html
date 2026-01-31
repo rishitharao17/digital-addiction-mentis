@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Detox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>📱Digital Detox </h2>
+
+<div class="apps">
+  <button onclick="useApp('youtube')">▶ YouTube</button>
+  <button onclick="useApp('games')">🎮 Games</button>
+  <button onclick="useApp('study')">📚 Study App</button>
+</div>
+
+<p id="status">Screen Time: 0 minutes</p>
+
+<!-- FULL SCREEN ALERT -->
+<div id="alertScreen">
+  <h1>⚠ Screen Time Limit Reached</h1>
+  <p>You have been using your phone for 60 minutes.<br>Take a break now.</p>
+
+  <h3>🧘 Break Activity</h3>
+  <button onclick="showActivity('meditate')">Meditate</button>
+  <button onclick="showActivity('exercise')">Exercise</button>
+
+  <p id="activityText"></p>
+  <h2 id="breakTimer"></h2>
+</div>
+
+<script src="script.js"></script>
+
+<button id="resumeBtn" style="display:none;">Resume Focus</button>
+
+</body>
+</html>

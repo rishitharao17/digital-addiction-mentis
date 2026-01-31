@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.apps button {
+  padding: 15px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+/* FULL SCREEN LOCK */
+#alertScreen {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: #f9fafa;
+  color: #ffffff;
+  z-index: 9999;
+  padding-top: 80px;
+}
+
+#alertScreen button {
+  padding: 12px;
+  margin: 8px;
+  font-size: 16px;
+}
